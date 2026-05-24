@@ -22,7 +22,7 @@ export default function Home() {
   const [loadingId, setLoadingId] = useState("");
  
   async function fetchProducts() {
-    const res = await fetch("http://localhost:3000/api/products");
+    const res = await fetch("/api/products");
     const data = await res.json();
     setProducts(data);
   }
@@ -34,7 +34,7 @@ export default function Home() {
   async function reserveInventory(inventoryId: string) {
     try {
       setLoadingId(inventoryId);
-      await fetch("http://localhost:3000/api/reserve", {
+      await fetch("/api/reserve", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ inventoryId, quantity: 1 }),
