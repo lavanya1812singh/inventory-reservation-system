@@ -25,7 +25,10 @@ A full-stack inventory reservation platform built using Next.js, Prisma ORM and 
 
 ### Dashboard UI
 
-<img width="1191" height="807" alt="image" src="https://github.com/user-attachments/assets/0377e50f-7404-4a19-b9b4-1690ed6fb6c5" />
+<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/78f8afa1-38a9-4c0e-bd54-f1a6b9199f38" />
+<img width="1918" height="875" alt="image" src="https://github.com/user-attachments/assets/8a8f2044-4d1f-42f1-a3c3-cfc822d0f0a2" />
+
+
 
 
 ## API Endpoints
