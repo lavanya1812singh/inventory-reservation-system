@@ -49,6 +49,8 @@ POST /api/confirm
 
 POST /api/release
 
+##LIVE DEMO
+https://inventory-reservation-system-nlcf.vercel.app
 ## Run Locally
 
 ```bash
